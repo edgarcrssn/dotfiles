@@ -1,6 +1,11 @@
 eval "$(nodenv init -)"
 
 
+# Variables
+# Syntax highlighting for man using bar
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+
 # Aliases
 alias ls='ls -lAFh'
 
