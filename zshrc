@@ -6,7 +6,7 @@ alias ls='ls -lAFh'
 
 
 # Prompt
-PROMPT='/Users/edgarcresson/.dotfiles/zshrc
+PROMPT='
 %1~ %L %# '
 
 RPROMPT='%*'
