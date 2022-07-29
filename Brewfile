@@ -1,22 +1,18 @@
-# Taps
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-
-# Brews (Packages)
 brew "bat"
 brew "exa"
 brew "git"
 brew "nodenv"
 brew "zsh"
-
-# Casks (Applications)
 cask "adobe-creative-cloud"
 cask "cleanmymac"
 cask "discord"
 cask "dropbox"
 cask "figma"
 cask "firefox"
+cask "gitkraken"
 cask "google-chrome"
 cask "insomnia"
 cask "intellij-idea"
