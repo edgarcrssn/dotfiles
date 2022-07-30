@@ -7,14 +7,14 @@ brew "bat"
 brew "exa"
 # Distributed revision control system
 brew "git"
+# Mac App Store command-line interface
+brew "mas"
 # Manage multiple NodeJS versions
 brew "nodenv"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
-# Application launcher and productivity software
-cask "alfred"
 # Tool to remove unnecessary files and folders from disk
 cask "cleanmymac"
 # Voice and text chat software
@@ -59,3 +59,6 @@ cask "sublime-text"
 cask "visual-studio-code"
 # JavaScript IDE
 cask "webstorm"
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
