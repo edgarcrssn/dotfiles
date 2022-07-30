@@ -13,6 +13,8 @@ brew "nodenv"
 brew "zsh"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# Application launcher and productivity software
+cask "alfred"
 # Tool to remove unnecessary files and folders from disk
 cask "cleanmymac"
 # Voice and text chat software
