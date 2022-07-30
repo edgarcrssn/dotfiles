@@ -1,3 +1,5 @@
+echo 'Load .zshrc'
+
 eval "$(nodenv init -)"
 
 

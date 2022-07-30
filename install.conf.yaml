@@ -5,8 +5,9 @@
 - clean: ['~']
 
 - link:
-    ~/.zprofile:
+    ~/.zshenv:
     ~/.zshrc:
+    ~/.zprofile:
     ~/.gitconfig:
     ~/.config/bat:
         create: true
