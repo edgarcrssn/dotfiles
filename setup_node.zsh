@@ -10,3 +10,11 @@ else
   n lts
   n latest
 fi
+
+echo "\nInstalling some global NPM packages..."
+npm i -g typescript
+npm i -g prettier
+npm i -g eslint
+
+echo "\nThe global NPM packages have been successfully installed:"
+npm list -g --depth=0
