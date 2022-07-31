@@ -9,6 +9,8 @@ brew "exa"
 brew "git"
 # Mac App Store command-line interface
 brew "mas"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # Manage multiple NodeJS versions
 brew "nodenv"
 # UNIX shell (command interpreter)
