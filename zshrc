@@ -5,6 +5,12 @@ echo 'Load .zshrc'
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
+export N_PREFIX="$HOME/.n"
+export PREFIX="$N_PREFIX"
+
+
+# Add n (Node version manager)
+export PATH="$PATH:$N_PREFIX/bin"
 
 
 # Aliases
