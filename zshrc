@@ -1,7 +1,7 @@
 echo 'Load .zshrc'
 
 # Variables
-# Syntax highlighting for man using bar
+# Syntax highlighting for man using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
