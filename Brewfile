@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -29,6 +30,7 @@ cask "dropbox"
 cask "figma"
 # Web browser
 cask "firefox"
+cask "font-fira-code"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
