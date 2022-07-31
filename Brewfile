@@ -14,8 +14,6 @@ brew "less"
 brew "mas"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
-# Manage multiple NodeJS versions
-brew "nodenv"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Collection of apps and services for photography, design, video, web, and UX
