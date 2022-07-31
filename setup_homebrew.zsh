@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/opt/homebrew/bin/zsh
 
 echo "\n<<< Starting Homebrew Setup >>>\n"
 
