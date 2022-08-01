@@ -10,7 +10,7 @@ export PREFIX="$N_PREFIX"
 
 
 # Add n (Node version manager)
-export PATH="$PATH:$N_PREFIX/bin"
+export PATH="$N_PREFIX/bin:$PATH"
 
 
 # Aliases

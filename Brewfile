@@ -16,16 +16,14 @@ brew "mas"
 brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# JavaScript package manager
+brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Collection of apps and services for photography, design, video, web, and UX
-cask "adobe-creative-cloud"
 # Tool to remove unnecessary files and folders from disk
 cask "cleanmymac"
 # Voice and text chat software
 cask "discord"
-# Client for the Dropbox cloud storage service
-cask "dropbox"
 # Collaborative team software
 cask "figma"
 # Web browser
@@ -57,14 +55,9 @@ cask "phpstorm"
 cask "postman"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
-# Music streaming service
-cask "spotify"
 # Text editor for code, markup and prose
 cask "sublime-text"
 # Open-source code editor
 cask "visual-studio-code"
 # JavaScript IDE
 cask "webstorm"
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
