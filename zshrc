@@ -9,8 +9,14 @@ export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 
 
-# Add n (Node version manager)
-export PATH="$N_PREFIX/bin:$PATH"
+# Add locations to $path array variable
+typeset -U path
+
+path=(
+	$N_PREFIX/bin
+	$path
+	"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+)
 
 
 # Aliases
