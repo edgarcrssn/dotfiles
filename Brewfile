@@ -20,6 +20,10 @@ brew "nano"
 brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
 # Tool to remove unnecessary files and folders from disk
 cask "cleanmymac"
 # Voice and text chat software
