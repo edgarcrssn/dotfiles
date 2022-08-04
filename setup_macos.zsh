@@ -392,10 +392,10 @@ defaults write NSGlobalDomain "NSToolbarTitleViewRolloverDelay" -float "0"
 # Finder > Preferences > General > Show these items on the desktop:
 # Hard disks
 # false (Default)
-defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool false
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
 # External disks
 # true (Default)
-defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 # CDs, DVDs and iPods
 # true (Default)
 defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
