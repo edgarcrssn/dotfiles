@@ -22,6 +22,7 @@ alias exa='exa -laFh --git'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias rm=trash
+alias rmdsstore='find . -name ".DS_Store" -type f -delete'
 
 
 # Prompt
