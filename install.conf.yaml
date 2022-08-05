@@ -14,15 +14,18 @@
         path: config/bat
 
 - shell:
-    -   command: ./setup_homebrew.zsh
+    -   command: ./explanation.zsh
         stdout: true
         stderr: true
-    -   command: ./setup_zsh.zsh
-        stdout: true
-        stderr: true
-    -   command: ./setup_node.zsh
-        stdout: true
-        stderr: true
-    -   command: ./setup_macos.zsh
-        stdout: true
-        stderr: true
+    # -   command: ./setup_homebrew.zsh
+    #     stdout: true
+    #     stderr: true
+    # -   command: ./setup_zsh.zsh
+    #     stdout: true
+    #     stderr: true
+    # -   command: ./setup_node.zsh
+    #     stdout: true
+    #     stderr: true
+    # -   command: ./setup_macos.zsh
+    #     stdout: true
+    #     stderr: true
