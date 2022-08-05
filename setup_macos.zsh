@@ -388,6 +388,16 @@ defaults write com.apple.finder AppleShowAllFiles -bool true
 # https://macos-defaults.com/finder/NSToolbarTitleViewRolloverDelay.html#set-to-0
 defaults write NSGlobalDomain "NSToolbarTitleViewRolloverDelay" -float "0"
 
+# Finder > Show View Options > Icon Size
+# 56 x 56
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 56" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 56" ~/Library/Preferences/com.apple.finder.plist
+
+# Desktop > Show View Options > Grid spacing
+# 40px
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:gridSpacing 40" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:gridSpacing 40" ~/Library/Preferences/com.apple.finder.plist
+
 
 # Finder > Preferences > General > Show these items on the desktop:
 # Hard disks
@@ -479,14 +489,10 @@ echo '\n⏳ Setting up "Desktop" preferences...'
 # Desktop > Show View Options > Icon size
 # 48 x 48
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 48" ~/Library/Preferences/com.apple.finder.plist
 
 # Desktop > Show View Options > Grid spacing
 # 60px
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:gridSpacing 60" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:gridSpacing 60" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:gridSpacing 60" ~/Library/Preferences/com.apple.finder.plist
 
 # Desktop > Show View Options > Text size
 # 12px (Default)
