@@ -9,7 +9,6 @@ It's very useful when I have to configure another Mac and helps me to save a lot
 
 It allows me to stop thinking about all my configurations settings anymore, which was overwhelming.
 
----
 ## How to use it ?
 
 ### Warning
