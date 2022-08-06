@@ -26,30 +26,7 @@ For example, the `gitconfig` file contains only personal informations that you m
 3. `cd ~/.dotfiles`
 4. Do one last Software Audit by editing [Brewfile](Brewfile) directly.
 5. Run [`./install`](install) then follow the instructions.
-6. [Generate ssh key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), add to GitHub, and switch remotes.
-
-    ```zsh
-    # Generate SSH key in default location (~/.ssh/config)
-    ssh-keygen -t rsa -b 4096 -C "66495007+eieioxyz@users.noreply.github.com"
-    # Start the ssh-agent
-    eval "$(ssh-agent -s)"
-    # Create config file with necessary settings
-    << EOF > ~/.ssh/config
-    Host *
-      AddKeysToAgent yes
-      UseKeychain yes
-      IdentityFile ~/.ssh/id_rsa
-    EOF
-    # Add private key to ssh-agent 
-    ssh-add -K ~/.ssh/id_rsa
-    # Copy public key and add to github.com > Settings > SSH and GPG keys
-    pbcopy < ~/.ssh/id_rsa.pub
-    # Test SSH connection, then verify fingerprint and username
-    # https://help.github.com/en/github/authenticating-to-github/testing-your-ssh-connection
-    ssh -T git@github.com
-    # Switch from HTTPS to SSH
-    git remote set-url origin git@github.com:edgarcrssn/dotfiles.git
-    ```
+6. [Generate SSH key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), add to GitHub, and switch remotes.
 
 ## Manual steps
 
