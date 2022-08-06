@@ -30,20 +30,22 @@ For example, the [gitconfig](gitconfig) file contains only personal informations
 
 ## Manual steps
 
-- `System Preferences > Apple ID > iCloud > iCloud Drive > Options… > Desktop & Documents Folders` to true
-- `System Preferences > General > Default web browser >` to Google Chrome.app
-- `System Preferences > Desktop & Screen Saver > Screen Saver > Show screen after` to 2 Minutes
-- `System Preferences > Desktop & Screen Saver > Screen Saver > Show with clock` to true
-- `System Preferences > Dock & Menu Bar > Menu Bar > Automatically hide and show the menu bar in full screen` to false
-- `System Preferences > Security & Privacy > General > Require password $1 after sleep or screen saver begins` to immediately
-- `System Preferences > Keyboard > Keyboard > Turn keyboard backlight off after` to true and to 5 minutes
-- `System Preferences > Trackpad > Point & Click > Click` to Light
-- `System Preferences > Battery > Power Adapter > Turn display off after` to 5 minutes
+- `System Preferences > Apple ID > iCloud > iCloud Drive > Options… > Desktop & Documents Folders` to **true**
+- `System Preferences > General > Default web browser >` to **Google Chrome.app**
+- `System Preferences > Desktop & Screen Saver > Screen Saver > Show screen after` to **2 Minutes**
+- `System Preferences > Desktop & Screen Saver > Screen Saver > Show with clock` to **true**
+- `System Preferences > Dock & Menu Bar > Menu Bar > Automatically hide and show the menu bar in full screen` to **false**
+- `System Preferences > Security & Privacy > General > Require password $1 after sleep or screen saver begins` to **immediately**
+- `System Preferences > Keyboard > Keyboard > Turn keyboard backlight off after` to **true** and to **5 minutes**
+- `System Preferences > Trackpad > Point & Click > Click` to **Light**
+- `System Preferences > Battery > Power Adapter > Turn display off after` to **5 minutes**
 
-- `Desktop > Right Click > Show View Options > Sort by` to Name
+- `Desktop > Right Click > Show View Options > Sort by` to **Name**
 
-- `Finder > Preferences > Sidebar > Pictures & home (edgarcresson)` to true
+- `Finder > Preferences > Sidebar > Pictures & home (edgarcresson)` to **true**
 
 - Dock: Rearrange applications
+  
+- Launchpad: Rearrange applications
 
 - Put Applications folder into Dock (next to Downloads). Then right click > `Display as Folder`
