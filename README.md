@@ -5,19 +5,19 @@ I **learned** about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz),
 ## What's the purpose of this repo ?
 This repo contains my **configuration files** and some scripts to **automatically install** my **preferred packages**, **applications** and keep my **System Preferences**.
 
-It's very useful when I have to configure another Mac and helps me to save a lot of time by automating this task. 
+It's very useful when I have to configure another Mac and **helps me to save a lot of time by automating this task**. 
 
-It allows me to stop thinking about all my configurations settings anymore, which was overwhelming.
+It allows me to **stop thinking about all my configurations settings anymore**, which was overwhelming.
 
 ## How to use it ?
 
 ### Warning
 
-Before starting using it, keep in my mind that some of these settings are purely personal.
+Before starting using it, keep in my mind that some of these settings are **purely personal**.
 
-You can use it if you like my configurations, but make sure to look at what each script do before running it.
+You can use it if you like my configurations, but make sure to **look at what each script do** before running it.
 
-For example, the [gitconfig](gitconfig) file contains only personal informations that you must change.
+For example, the [gitconfig](gitconfig) file contains **only personal informations** that **you must change**.
 
 ### Restore Instructions
 
