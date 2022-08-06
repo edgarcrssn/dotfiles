@@ -17,7 +17,7 @@ Before starting using it, keep in my mind that some of these settings are purely
 
 You can use it if you like my configurations, but make sure to look at what each script do before running it.
 
-For example, the `gitconfig` file contains only personal informations that you must change.
+For example, the [gitconfig](gitconfig) file contains only personal informations that you must change.
 
 ### Restore Instructions
 
