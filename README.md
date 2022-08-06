@@ -21,12 +21,12 @@ For example, the [gitconfig](gitconfig) file contains **only personal informatio
 
 ### Restore Instructions
 
-1. `xcode-select --install` (Command Line Tools are required for Git and Homebrew)
-2. `git clone https://github.com/edgarcrssn/dotfiles.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
-3. `cd ~/.dotfiles`
-4. Do one last Software Audit by editing [Brewfile](Brewfile) directly.
-5. Run [`./install`](install) then follow the instructions.
-6. [Generate SSH key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), add to GitHub, and switch remotes.
+1. [Generate SSH key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), then add it to GitHub.
+2. Open your terminal, then run `xcode-select --install` (Command Line Tools are required for Git and Homebrew).
+3. Run `git clone git@github.com:edgarcrssn/dotfiles.git ~/.dotfiles`. 
+4. Run `cd ~/.dotfiles`.
+5. Do one last Software Audit by editing [Brewfile](Brewfile) directly.
+6. Run [`./install`](install) then follow the instructions.
 
 ## Manual steps
 
