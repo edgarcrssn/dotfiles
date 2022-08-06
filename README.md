@@ -30,6 +30,8 @@ For example, the [gitconfig](gitconfig) file contains only personal informations
 
 ## Manual steps
 
+### System Preferences
+
 - `System Preferences > Apple ID > iCloud > iCloud Drive > Options… > Desktop & Documents Folders` to **true**
 - `System Preferences > General > Default web browser >` to **Google Chrome.app**
 - `System Preferences > Desktop & Screen Saver > Screen Saver > Show screen after` to **2 Minutes**
@@ -40,12 +42,19 @@ For example, the [gitconfig](gitconfig) file contains only personal informations
 - `System Preferences > Trackpad > Point & Click > Click` to **Light**
 - `System Preferences > Battery > Power Adapter > Turn display off after` to **5 minutes**
 
+### Desktop
+
 - `Desktop > Right Click > Show View Options > Sort by` to **Name**
+
+### Finder
 
 - `Finder > Preferences > Sidebar > Pictures & home (edgarcresson)` to **true**
 
-- Dock: Rearrange applications
-  
-- Launchpad: Rearrange applications
+### Dock
 
+- Rearrange applications
 - Put Applications folder into Dock (next to Downloads). Then right click > `Display as Folder`
+
+### Launchpad
+
+- Rearrange applications
