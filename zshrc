@@ -4,7 +4,7 @@ echo 'Load .zshrc'
 # Syntax highlighting for man using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export NULLCMD=bat
-
+export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
 
 # Add locations to $path array variable
 typeset -U path

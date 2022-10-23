@@ -1,5 +1,3 @@
-echo "Load .zshenv"
-
 export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 export HOMEBREW_CASK_OPTS="--no-quarantine"

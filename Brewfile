@@ -2,6 +2,8 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "homebrew/services"
+tap "mongodb/brew"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -16,14 +18,14 @@ brew "mas"
 brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Command-line interface for SQLite
+brew "sqlite"
 # JavaScript package manager
 brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Fish-like fast/unobtrusive autosuggestions for zsh
-brew "zsh-autosuggestions"
-# Fish shell like syntax highlighting for zsh
-brew "zsh-syntax-highlighting"
+# High-performance, schema-free, document-oriented database
+brew "mongodb/brew/mongodb-community"
 # Tool to remove unnecessary files and folders from disk
 cask "cleanmymac"
 # Voice and text chat software
@@ -41,6 +43,8 @@ cask "google-chrome"
 cask "insomnia"
 # Java IDE by JetBrains
 cask "intellij-idea"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # Blocks all Keyboard and TouchBar input
 cask "keyboardcleantool"
 # Web development solution with Apache, Nginx, PHP & MySQL
@@ -61,7 +65,12 @@ cask "postman"
 cask "rectangle"
 # Text editor for code, markup and prose
 cask "sublime-text"
+# Native GUI tool for relational databases
+cask "tableplus"
+# Virtual machines UI using QEMU
+cask "utm"
 # Open-source code editor
 cask "visual-studio-code"
 # JavaScript IDE
 cask "webstorm"
+mas "Amphetamine", id: 937984704
