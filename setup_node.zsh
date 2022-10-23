@@ -14,11 +14,11 @@ fi
 
 echo "\n⏳ Installing some global NPM packages..."
 
-if exists tsc; then
-  echo "ℹ️  TypeScript $(tsc -v) is already installed."
+if exists pnpm; then
+  echo "ℹ️  pnpm $(pnpm -v) is already installed."
 else
-  echo "⏳ Installing TypeScript using npm..."
-  npm i -g typescript
+  echo "⏳ Installing pnpm using npm..."
+  npm i -g pnpm
 fi
 
 if exists prettier; then

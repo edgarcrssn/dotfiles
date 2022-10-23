@@ -29,4 +29,18 @@ else
   # sudo ln -sfv /opt/homebrew/bin/zsh /private/var/select/sh
 fi
 
+if [[ -d "/Users/$USER/.oh-my-zsh" ]]; then
+  echo "ℹ️  oh-my-zsh is already installed.\n"
+else
+  echo "⏳ Installing oh-my-zsh...\n"
+  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+  echo "⏳ Installing PowerLevel10K Theme for oh-my-zsh...\n"
+  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+
+  echo "⏳ Installing few plugins for oh-my-zsh...\n"
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+fi
+
 echo "\n<<< 🤖 Ending ZSH Setup 🤖 >>>\n"
