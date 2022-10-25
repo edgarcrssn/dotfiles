@@ -12,6 +12,10 @@
     ~/.config/bat:
         create: true
         path: config/bat
+    ~/.p10k.zsh:
+    ~/.config/iterm2:
+        create: true
+        path: config/iterm2
 
 - shell:
     -   command: ./explanation.zsh
