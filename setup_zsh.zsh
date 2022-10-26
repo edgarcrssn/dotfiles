@@ -37,7 +37,7 @@ fi
 
 
 
-if [[ -d "/Users/$USER/.oh-my-zsh" ]]; then
+if [[ -d "$HOME/.oh-my-zsh" ]]; then
   echo "ℹ️  oh-my-zsh is already installed.\n"
 else
   echo "⏳ Installing oh-my-zsh...\n"
@@ -46,29 +46,29 @@ fi
 
 
 
-if [[ -d "/Users/$USER/.oh-my-zsh/themes/powerlevel10k" ]]; then
-  echo "ℹ️  PowerLevel10K is already installed.\n"
-else
-  echo "⏳ Installing PowerLevel10K theme for oh-my-zsh...\n"
-  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
-fi
-
-
-
 echo "⏳ Installing few plugins for oh-my-zsh...\n"
 
-if [[ -d "/Users/$USER/.oh-my-zsh/plugins/zsh-autosuggestions" ]]; then
+if [[ -d "$HOME/.oh-my-zsh/plugins/zsh-autosuggestions" ]]; then
   echo "\tℹ️  zsh-autosuggestions is already installed.\n"
 else
   echo "\t⏳ Installing zsh-autosuggestions plugin for oh-my-zsh...\n"
   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 fi
 
-if [[ -d "/Users/$USER/.oh-my-zsh/plugins/zsh-syntax-highlighting" ]]; then
+if [[ -d "$HOME/.oh-my-zsh/plugins/zsh-syntax-highlighting" ]]; then
   echo "\tℹ️  zsh-syntax-highlighting is already installed.\n"
 else
   echo "\t⏳ Installing zsh-syntax-highlighting plugin for oh-my-zsh...\n"
   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+fi
+
+
+
+if [[ -d "$HOME/.oh-my-zsh/themes/powerlevel10k" ]]; then
+  echo "ℹ️  PowerLevel10K is already installed.\n"
+else
+  echo "⏳ Installing PowerLevel10K theme for oh-my-zsh...\n"
+  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 fi
 
 

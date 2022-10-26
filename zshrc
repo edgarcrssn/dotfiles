@@ -107,26 +107,36 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls='exa -laFh --git'
-alias exa='exa -laFh --git'
-alias bbd='brew bundle dump --force --describe'
-alias trail='<<<${(F)path}'
-alias rm=trash
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+
+# Personal configuration
 # Variables
 # Syntax highlighting for man using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export NULLCMD=bat
 
-
 # Add locations to $path array variable
 typeset -U path
-
 path=(
 	$N_PREFIX/bin
 	"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 	$path
 )
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# Aliases
+alias ls='exa -laFh --git'
+alias exa='exa -laFh --git'
+alias bbd='brew bundle dump --force --describe'
+alias trail='<<<${(F)path}'
+alias rm=trash
+alias showdsstore='find . -name ".DS_Store" -type f'
+alias rmdsstore='find . -name ".DS_Store" -type f -delete'
+
+# Functions
+function mkcd () {
+	mkdir -p "$@" && cd "$_"
+}
