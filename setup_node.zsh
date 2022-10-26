@@ -2,6 +2,13 @@
 
 echo "\n<<< 💎 Starting Node Setup 💎 >>>\n"
 
+# Ask for the administrator password upfront
+sudo -v
+# Keep-alive: update existing `sudo` time stamp until script has finished
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+
+
 # Node versions are managed with 'n', which is in the Brewfile.
 if exists node; then
   echo "ℹ️  Node $(node -v) & NPM $(npm -v) are already installed."
@@ -15,30 +22,30 @@ fi
 echo "\n⏳ Installing some global NPM packages..."
 
 if exists pnpm; then
-  echo "ℹ️  pnpm $(pnpm -v) is already installed."
+  echo "\tℹ️  pnpm $(pnpm -v) is already installed."
 else
-  echo "⏳ Installing pnpm using npm..."
+  echo "\t⏳ Installing pnpm using npm..."
   npm i -g pnpm
 fi
 
 if exists prettier; then
-  echo "ℹ️  Prettier $(prettier -v) is already installed."
+  echo "\tℹ️  Prettier $(prettier -v) is already installed."
 else
-  echo "⏳ Installing Prettier using npm..."
+  echo "\t⏳ Installing Prettier using npm..."
   npm i -g prettier
 fi
 
 if exists eslint; then
-  echo "ℹ️  ESLint $(eslint -v) is already installed."
+  echo "\tℹ️  ESLint $(eslint -v) is already installed."
 else
-  echo "⏳ Installing ESLint using npm..."
+  echo "\t⏳ Installing ESLint using npm..."
   npm i -g eslint
 fi
 
 if exists trash; then
-  echo "ℹ️  trash-cli $(trash --version) is already installed."
+  echo "\tℹ️  trash-cli $(trash --version) is already installed."
 else
-  echo "⏳ Installing trash-cli using npm..."
+  echo "\t⏳ Installing trash-cli using npm..."
   npm i -g trash-cli
 fi
 
