@@ -2,7 +2,7 @@
 
 echo '\n✅ Dotfiles are set up !'
 
-echo '\nYou can now set up (respect the order):'
+echo '\nYou can now set up (in order):'
   echo '\n\t🍺 Homebrew:'
     echo '\t\t./setup_homebrew.zsh'
   echo '\n\t🤖 zsh:'

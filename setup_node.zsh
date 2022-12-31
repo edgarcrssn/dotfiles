@@ -28,20 +28,6 @@ else
   npm i -g pnpm
 fi
 
-if exists prettier; then
-  echo "\tℹ️  Prettier $(prettier -v) is already installed."
-else
-  echo "\t⏳ Installing Prettier using npm..."
-  npm i -g prettier
-fi
-
-if exists eslint; then
-  echo "\tℹ️  ESLint $(eslint -v) is already installed."
-else
-  echo "\t⏳ Installing ESLint using npm..."
-  npm i -g eslint
-fi
-
 if exists trash; then
   echo "\tℹ️  trash-cli $(trash --version) is already installed."
 else

@@ -1,36 +1,36 @@
 - defaults:
-    link:
-        relink: true
+  link:
+    relink: true
 
 - clean: ['~']
 
 - link:
-    ~/.zshenv:
-    ~/.zshrc:
-    ~/.zshrc.pre-oh-my-zsh:
-    ~/.zprofile:
-    ~/.gitconfig:
-    ~/.config/bat:
-        create: true
-        path: config/bat
-    ~/.p10k.zsh:
-    ~/.config/iterm2:
-        create: true
-        path: config/iterm2
+  ~/.zshenv:
+  ~/.zshrc:
+  ~/.zshrc.pre-oh-my-zsh:
+  ~/.zprofile:
+  ~/.gitconfig:
+  ~/.config/bat:
+    create: true
+    path: config/bat
+  ~/.p10k.zsh:
+  ~/.config/iterm2:
+    create: true
+    path: config/iterm2
 
 - shell:
-    -   command: ./explanation.zsh
-        stdout: true
-        stderr: true
-    # -   command: ./setup_homebrew.zsh
-    #     stdout: true
-    #     stderr: true
-    # -   command: ./setup_zsh.zsh
-    #     stdout: true
-    #     stderr: true
-    # -   command: ./setup_node.zsh
-    #     stdout: true
-    #     stderr: true
-    # -   command: ./setup_macos.zsh
-    #     stdout: true
-    #     stderr: true
+  - command: ./explanation.zsh
+    stdout: true
+    stderr: true
+  # -   command: ./setup_homebrew.zsh
+  #     stdout: true
+  #     stderr: true
+  # -   command: ./setup_zsh.zsh
+  #     stdout: true
+  #     stderr: true
+  # -   command: ./setup_node.zsh
+  #     stdout: true
+  #     stderr: true
+  # -   command: ./setup_macos.zsh
+  #     stdout: true
+  #     stderr: true
